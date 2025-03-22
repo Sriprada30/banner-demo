@@ -3,8 +3,8 @@
 import { useState } from "react"
 import { Book, Coffee, Music } from "lucide-react"
 
-export  default function BannerCustomizer() {
-  const [bannerBg, setBannerBg] = useState("#f43f5e")
+export  default  function Banner() {
+  const [bannerBg, setBannerBg] = useState("#000000")
   const [bannerText, setBannerText] = useState("Reading opens doors to new worlds and perspectives")
   const [textColor, setTextColor] = useState("#ffffff")
   const [icon, setIcon] = useState("book")
