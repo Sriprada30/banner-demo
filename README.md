@@ -30,10 +30,30 @@ Ensure you have Node.js installed.
 
 Steps
 
-Clone the repository:
+## 🚀 Installation & Setup
+To set up the project locally, follow these steps:
 
-git clone https://github.com/your-username/customizable-banner.git
-cd customizable-banner
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/Sriprada30/banner-demo.git
+   ```
+2. **Navigate to the project directory:**
+   ```sh
+   cd banner-demo
+   ```
+3. **Install dependencies:**
+   ```sh
+   npm install
+   ```
+4. **Start the development server:**
+   ```sh
+   npm run dev
+   ```
+5. **Run tests (optional):**
+   ```sh
+   npm test
+   ```
+
 
 Install dependencies:
 
