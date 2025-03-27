@@ -1,12 +1,67 @@
-# React + Vite
+Customizable Banner Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Overview
 
-Currently, two official plugins are available:
+This project is a React-based application that allows users to customize banners with dynamic text, background colors, text colors, and icons. It provides an interactive UI built with React and Vite for fast development and performance.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Features
 
-## Expanding the ESLint configuration
+Customize the banner text.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Select from multiple background and text color options.
+
+Choose an icon to display on the banner.
+
+Real-time preview of changes.
+
+Technologies Used
+
+React: Frontend framework for building UI components.
+
+Vite: A fast build tool optimized for modern web development.
+
+Tailwind CSS: For styling and responsive design.
+
+Installation
+
+Prerequisites
+
+Ensure you have Node.js installed.
+
+Steps
+
+Clone the repository:
+
+git clone https://github.com/your-username/customizable-banner.git
+cd customizable-banner
+
+Install dependencies:
+
+npm install
+
+Start the development server:
+
+npm run dev
+
+Usage
+
+Open the application in your browser at http://localhost:5173 (or the port Vite suggests).
+
+Enter custom text in the input field.
+
+Choose background and text colors from the dropdowns.
+
+Select an icon from the available options.
+
+The banner updates instantly based on your selections.
+
+Contribution
+
+Contributions are welcome! If you want to improve the project, feel free to fork the repo and submit a pull request.
+
+License
+
+This project is licensed under the MIT License.
+
+Made with ❤️ using React & Vite.
+
